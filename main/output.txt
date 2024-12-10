@@ -1,0 +1,54 @@
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
+Output R: 0.000000
+Output I: 0.000000
+
