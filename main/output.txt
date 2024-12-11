@@ -1,54 +1,15 @@
-Output R: 0.000000
-Output I: 0.000000
+Output R: 1.219107
+Output I: 1.474161
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -6.797276
+Output I: 11.821552
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -0.131750
+Output I: 0.232794
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -2.114403
+Output I: 40.129470
 
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
-
-Output R: 0.000000
-Output I: 0.000000
+Output R: -0.243110
+Output I: 0.842847
 
