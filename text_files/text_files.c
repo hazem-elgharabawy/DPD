@@ -32,37 +32,6 @@ void generate_input_file(const char *filename, int num_input_sets) {
 }
 
 
-// Function to read data from a file and initialize Actuator_S structure
-int read_input_file(const char *input_file, Actuator_S *act,double value) {
-    
-        // Parse based on the current line content
-        if (sscanf(line, "in_r=%lf", &value) == 1) {
-            act->in_r = FloatToFixed(value);
-        } else if (sscanf(line, "in_i=%lf", &value) == 1) {
-            act->in_i = FloatToFixed(value);
-        } else if (sscanf(line, "a10_r=%lf", &value) == 1) {
-            act->a10_r = FloatToFixed(value);
-        } else if (sscanf(line, "a10_i=%lf", &value) == 1) {
-            act->a10_i = FloatToFixed(value);
-        } else if (sscanf(line, "a30_r=%lf", &value) == 1) {
-            act->a30_r = FloatToFixed(value);
-        } else if (sscanf(line, "a30_i=%lf", &value) == 1) {
-            act->a30_i = FloatToFixed(value);
-        } else if (sscanf(line, "a50_r=%lf", &value) == 1) {
-            act->a50_r = FloatToFixed(value);
-        } else if (sscanf(line, "a50_i=%lf", &value) == 1) {
-            act->a50_i = FloatToFixed(value);
-        } else if (line[0] == '\n' || line[0] == '\0') {
-            // Skip empty lines
-            
-        } else {
-            // Handle invalid line format (optional)
-            printf("Invalid line format: %s", line);
-        }
-    
-    return 0;  // Successful read
-}
-
 // Function to write the actuator output to a file
 void write_output_file(const char *filename, Actuator_S *act) {
     FILE *file = fopen(filename, "a");  // Open file in append mode

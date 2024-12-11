@@ -8,32 +8,22 @@
 
 int main() {
     const char *input_file = "input.txt";
+    const char *output_file = "output.txt";
 
     // Check if the input file exists
     FILE *file0 = fopen(input_file, "r");
     if (file0 == NULL) {
         // If the file doesn't exist, generate it with sample data
         printf("Input file not found. Generating a new one...\n");
-        generate_input_file(input_file,2);
+        generate_input_file(input_file,5);
     } else {
         fclose(file0);  // If the file exists, close it
     }
 
-    // Clear the output file by opening it in "w" mode
-    FILE *file_out = fopen(output_file, "w");
-    if (file_out == NULL) {
-        printf("Error opening output file to clear its contents\n");
-        return -1;
-    }
-    fclose(file_out);  // Close immediately after clearing
+    // Clear the output file from ant past values
+    clear_file(output_file);
 
     Actuator_S act = {0};
-
-    char line[256];      // Buffer to hold each line
-    int line_count = 0;  // Count of processed input sets
-    double total_time = 0;  // Total time for all actuator steps
-
-
 
     // Read input values from the generated file and process them in a loop
     FILE *file = fopen("input.txt", "r");
@@ -84,10 +74,19 @@ int main() {
             // Write output to the output file
             write_output_file(output_file, &act);
         }
+
     }
 
     fclose(file);
     printf("Output written to output.txt\n");
-    
+    // Calculate and print the average time
+    if (line_count > 0) {
+        double average_time = total_time / line_count;
+        printf("Average time taken by function: %lf seconds\n", average_time);
+    } else {
+        printf("No input sets processed.\n");
+    }
+
+    printf("Processed %d lines. Output written to %s\n", line_count, output_file);
     return 0;
 }
