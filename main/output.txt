@@ -1,54 +1,300 @@
-Output R: 0.000000
-Output I: 0.000000
+Output R: -3.227232
+Output I: 6.959987
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -3.028563
+Output I: 6.771787
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: 19.297682
+Output I: 64.647711
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -22.854836
+Output I: 31.410131
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -0.382655
+Output I: 4.161522
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -1.803327
+Output I: 6.274993
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -14.625574
+Output I: -112.371208
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -3.496522
+Output I: 7.262054
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: 7.298313
+Output I: 26.275159
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -16.764982
+Output I: 13.289021
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -45.793770
+Output I: 117.104626
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -29.632496
+Output I: 45.645809
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -0.286359
+Output I: 0.053177
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -10.465712
+Output I: 26.915814
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -0.082403
+Output I: 0.288046
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: 41.710192
+Output I: 72.714472
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -83.748701
+Output I: 67.171936
 
-Output R: 0.000000
-Output I: 0.000000
+Output R: -15.589417
+Output I: 63.817736
+
+Output R: 6.269656
+Output I: 50.816661
+
+Output R: -2.185172
+Output I: 4.484933
+
+Output R: 1.322429
+Output I: 10.052048
+
+Output R: 1.839660
+Output I: 3.983507
+
+Output R: -1.273572
+Output I: 3.159244
+
+Output R: -0.073773
+Output I: 0.186813
+
+Output R: -8.883931
+Output I: 5.743537
+
+Output R: 42.375643
+Output I: 36.721435
+
+Output R: -2.222273
+Output I: 4.676973
+
+Output R: 2.352007
+Output I: 5.100555
+
+Output R: -0.206904
+Output I: 3.374363
+
+Output R: -1.837513
+Output I: 1.508893
+
+Output R: 1.924069
+Output I: 1.347143
+
+Output R: -1.025010
+Output I: 1.007198
+
+Output R: -43.802099
+Output I: 67.852499
+
+Output R: -3.797390
+Output I: 10.923247
+
+Output R: -1.625252
+Output I: 3.047697
+
+Output R: 14.808971
+Output I: 82.391257
+
+Output R: -1.445624
+Output I: 3.114175
+
+Output R: 18.126290
+Output I: 54.364619
+
+Output R: 3.774239
+Output I: 2.911333
+
+Output R: -0.268655
+Output I: 1.711162
+
+Output R: 5.572531
+Output I: 48.122410
+
+Output R: -77.064327
+Output I: 105.658705
+
+Output R: 3.213628
+Output I: 4.724831
+
+Output R: 28.470521
+Output I: 24.127977
+
+Output R: -5.815574
+Output I: 8.230020
+
+Output R: 11.941272
+Output I: 24.053262
+
+Output R: 3.155589
+Output I: 115.027046
+
+Output R: 0.117042
+Output I: 0.256275
+
+Output R: -1.551975
+Output I: 8.564760
+
+Output R: -0.150995
+Output I: 1.564252
+
+Output R: -14.963616
+Output I: 21.250726
+
+Output R: -1.282727
+Output I: 5.020597
+
+Output R: 0.186397
+Output I: 0.628755
+
+Output R: 9.318540
+Output I: 9.131780
+
+Output R: -0.019010
+Output I: 2.152862
+
+Output R: -46.630431
+Output I: -70.955521
+
+Output R: 4.434754
+Output I: 20.257334
+
+Output R: 29.944231
+Output I: -94.514214
+
+Output R: 56.183352
+Output I: -90.067074
+
+Output R: 25.769276
+Output I: 18.598780
+
+Output R: -0.451874
+Output I: 2.377788
+
+Output R: -0.554595
+Output I: 1.484082
+
+Output R: -2.174956
+Output I: 7.534258
+
+Output R: 1.188821
+Output I: 33.577711
+
+Output R: 3.727946
+Output I: 26.662328
+
+Output R: 65.782270
+Output I: -41.846197
+
+Output R: -4.818595
+Output I: 21.095098
+
+Output R: -5.641875
+Output I: 17.676632
+
+Output R: -21.360774
+Output I: 71.020015
+
+Output R: 2.218909
+Output I: 5.684040
+
+Output R: 31.562063
+Output I: 42.334753
+
+Output R: 0.896131
+Output I: 19.488926
+
+Output R: -3.297616
+Output I: 9.114470
+
+Output R: 24.831442
+Output I: 56.384885
+
+Output R: 0.852825
+Output I: 3.630434
+
+Output R: -9.955760
+Output I: 17.120334
+
+Output R: 0.715981
+Output I: 7.129250
+
+Output R: -3.759473
+Output I: 3.351606
+
+Output R: 6.597881
+Output I: 5.285036
+
+Output R: 4.001584
+Output I: 6.914497
+
+Output R: -0.415992
+Output I: 1.268732
+
+Output R: -0.371239
+Output I: 12.623859
+
+Output R: 16.105415
+Output I: 25.254252
+
+Output R: -57.124601
+Output I: 48.332835
+
+Output R: 12.040150
+Output I: 13.224932
+
+Output R: 14.619452
+Output I: 12.822212
+
+Output R: -2.803604
+Output I: 10.680220
+
+Output R: -34.980369
+Output I: 29.016535
+
+Output R: 6.087663
+Output I: 9.564049
+
+Output R: -7.304041
+Output I: 12.160440
+
+Output R: 1.631803
+Output I: 58.276192
+
+Output R: 0.866100
+Output I: 0.492696
+
+Output R: -6.229070
+Output I: 4.656302
+
+Output R: -8.225525
+Output I: 14.374125
+
+Output R: -1.258681
+Output I: 6.265866
+
+Output R: -0.961380
+Output I: 3.885553
+
+Output R: -0.795782
+Output I: 4.640894
+
+Output R: 12.749930
+Output I: 29.389887
+
+Output R: 8.593649
+Output I: 16.310668
+
+Output R: 87.675817
+Output I: -28.442071
 
