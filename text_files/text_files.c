@@ -33,38 +33,33 @@ void generate_input_file(const char *filename, int num_input_sets) {
 
 
 // Function to read data from a file and initialize Actuator_S structure
-int read_input_file(const char *filename, Actuator_S *act) {
-    FILE *file = fopen(filename, "r");
-    if (file == NULL) {
-        printf("Error opening file %s\n", filename);
-        return -1;
-    }
-
-    // Read values from the file
-    if (fscanf(file, "in_r=%lf\n", &act->in_r) != 1 ||
-        fscanf(file, "in_i=%lf\n", &act->in_i) != 1 ||
-        fscanf(file, "a10_r=%lf\n", &act->a10_r) != 1 ||
-        fscanf(file, "a10_i=%lf\n", &act->a10_i) != 1 ||
-        fscanf(file, "a30_r=%lf\n", &act->a30_r) != 1 ||
-        fscanf(file, "a30_i=%lf\n", &act->a30_i) != 1 ||
-        fscanf(file, "a50_r=%lf\n", &act->a50_r) != 1 ||
-        fscanf(file, "a50_i=%lf\n", &act->a50_i) != 1) {
-        printf("Error reading data from file\n");
-        fclose(file);
-        return -1;
-    }
-
-    // Convert double values to fixed-point values
-    act->in_r = FloatToFixed(act->in_r);
-    act->in_i = FloatToFixed(act->in_i);
-    act->a10_r = FloatToFixed(act->a10_r);
-    act->a10_i = FloatToFixed(act->a10_i);
-    act->a30_r = FloatToFixed(act->a30_r);
-    act->a30_i = FloatToFixed(act->a30_i);
-    act->a50_r = FloatToFixed(act->a50_r);
-    act->a50_i = FloatToFixed(act->a50_i);
-
-    fclose(file);
+int read_input_file(const char *input_file, Actuator_S *act,double value) {
+    
+        // Parse based on the current line content
+        if (sscanf(line, "in_r=%lf", &value) == 1) {
+            act->in_r = FloatToFixed(value);
+        } else if (sscanf(line, "in_i=%lf", &value) == 1) {
+            act->in_i = FloatToFixed(value);
+        } else if (sscanf(line, "a10_r=%lf", &value) == 1) {
+            act->a10_r = FloatToFixed(value);
+        } else if (sscanf(line, "a10_i=%lf", &value) == 1) {
+            act->a10_i = FloatToFixed(value);
+        } else if (sscanf(line, "a30_r=%lf", &value) == 1) {
+            act->a30_r = FloatToFixed(value);
+        } else if (sscanf(line, "a30_i=%lf", &value) == 1) {
+            act->a30_i = FloatToFixed(value);
+        } else if (sscanf(line, "a50_r=%lf", &value) == 1) {
+            act->a50_r = FloatToFixed(value);
+        } else if (sscanf(line, "a50_i=%lf", &value) == 1) {
+            act->a50_i = FloatToFixed(value);
+        } else if (line[0] == '\n' || line[0] == '\0') {
+            // Skip empty lines
+            
+        } else {
+            // Handle invalid line format (optional)
+            printf("Invalid line format: %s", line);
+        }
+    
     return 0;  // Successful read
 }
 
@@ -84,3 +79,12 @@ void write_output_file(const char *filename, Actuator_S *act) {
     fclose(file);
 }
 
+int clear_file(const char *filename) {
+// Clear the output file by opening it in "w" mode
+    FILE *file_out = fopen(filename, "w");
+    if (file_out == NULL) {
+        printf("Error opening file to clear its contents\n");
+        return -1;
+    }
+    fclose(file_out);  // Close immediately after clearing
+}
