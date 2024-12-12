@@ -46,29 +46,5 @@ void actuator_func(Actuator_S *act) {
 
     act->out_r = mul1 - mul2;                                              //Y = H(1)*X + H(2)*X*|X|^2 + H(3)*X*|X|^4
     act->out_i = mul3 + mul4;
-/*
-    // Print the output values
-    printf("INSIDE actuator INPUT R: %.6f\n", FIxedToDouble(act->in_r));
-    printf("INSIDE actuator INPUT I: %.6f\n", FIxedToDouble(act->in_i));
-    printf("INSIDE actuator abs_squared: %.6f\n", FIxedToDouble(abs_squared)); 
-    printf("INSIDE actuator abs_pwr_four: %.6f\n", FIxedToDouble(abs_pwr_four));
-    
-    printf("INSIDE actuator 1 half_mul1_r: %.6f\n", FIxedToDouble(half_mul1_r));
-    printf("INSIDE actuator 1 half_mul1_i: %.6f\n", FIxedToDouble(half_mul1_i));
-    
-    printf("INSIDE actuator 2 half_mul2_r: %.6f\n", FIxedToDouble(half_mul2_r));
-    printf("INSIDE actuator 2 half_mul2_i: %.6f\n", FIxedToDouble(half_mul2_i));
-    
-    printf("INSIDE actuator 1 add1_r: %.6f\n", FIxedToDouble(add1_r));
-    printf("INSIDE actuator 1 add1_i: %.6f\n", FIxedToDouble(add1_i));
-    
-    printf("INSIDE actuator 2 add2_r: %.6f\n", FIxedToDouble(add2_r));
-    printf("INSIDE actuator 2 add2_i: %.6f\n", FIxedToDouble(add2_i));
 
-    printf("INSIDE actuator 1 Output R: %.6f\n", FIxedToDouble(mul1 - mul2));
-    printf("INSIDE actuator 1 Output I: %.6f\n", FIxedToDouble(mul3 + mul4));
-
-    printf("INSIDE actuator 2 Output R: %.6f\n", FIxedToDouble(act->out_r));
-    printf("INSIDE actuator 2 Output I: %.6f\n", FIxedToDouble(act->out_i));
-    */
 }
