@@ -15,7 +15,7 @@ typedef int64_t fixed_point_product_t;
 
 // Function prototypes
 fixed_point_t FixedMul(fixed_point_t a, fixed_point_t b);
-fixed_point_t FloatToFixed(double a);
-double FixedToFloat(fixed_point_product_t a);
+fixed_point_t DoubleToFixed(double a);
+double FIxedToDouble(fixed_point_product_t a);
 
 #endif // FIXED_H

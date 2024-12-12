@@ -2,13 +2,13 @@
 
 //  Functions definitions
 
-fixed_point_t FloatToFixed(double a){
+fixed_point_t DoubleToFixed(double a){
     fixed_point_t result;
     result = (fixed_point_t) (a * (1<< FRACT_WIDTH) + 0.5);         // multiply by 2^FRACT_WIDTH
     return result;
 }
 
-double FixedToFloat(fixed_point_product_t a){
+double FIxedToDouble(fixed_point_product_t a){
     double result;
     result = (double) a / (1 << FRACT_WIDTH);                  // divide by 2^FRACT_WIDTH
     return result;

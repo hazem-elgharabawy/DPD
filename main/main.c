@@ -42,26 +42,26 @@ int main() {
 
         // Parse based on the current line content
         if (sscanf(line, "in_r=%lf", &value) == 1) {
-            act.in_r = FloatToFixed(value);
+            act.in_r = DoubleToFixed(value);
         } else if (sscanf(line, "in_i=%lf", &value) == 1) {
-            act.in_i = FloatToFixed(value);
+            act.in_i = DoubleToFixed(value);
         } else if (sscanf(line, "a10_r=%lf", &value) == 1) {
-            act.a10_r = FloatToFixed(value);
+            act.a10_r = DoubleToFixed(value);
         } else if (sscanf(line, "a10_i=%lf", &value) == 1) {
-            act.a10_i = FloatToFixed(value);
+            act.a10_i = DoubleToFixed(value);
         } else if (sscanf(line, "a30_r=%lf", &value) == 1) {
-            act.a30_r = FloatToFixed(value);
+            act.a30_r = DoubleToFixed(value);
         } else if (sscanf(line, "a30_i=%lf", &value) == 1) {
-            act.a30_i = FloatToFixed(value);
+            act.a30_i = DoubleToFixed(value);
         } else if (sscanf(line, "a50_r=%lf", &value) == 1) {
-            act.a50_r = FloatToFixed(value);
+            act.a50_r = DoubleToFixed(value);
         } else if (sscanf(line, "a50_i=%lf", &value) == 1) {
-            act.a50_i = FloatToFixed(value);
+            act.a50_i = DoubleToFixed(value);
         } else if (line[0] == '\n' || line[0] == '\0') {
             // Empty line indicates the end of an input set
             clock_t timer = clock();
             
-            actuator_step(&act);
+            actuator_func(&act);
 
             timer = clock() - timer;
 

@@ -14,6 +14,6 @@ typedef struct {
 } Actuator_S;
 
 // Function prototypes
-void actuator_step(Actuator_S *act);
+void actuator_func(Actuator_S *act);
 
 #endif // ACTUATOR_H
