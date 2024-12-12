@@ -8,7 +8,7 @@ fixed_point_t DoubleToFixed(double a){
     return result;
 }
 
-double FIxedToDouble(fixed_point_product_t a){
+double FixedToDouble(fixed_point_product_t a){
     double result;
     result = (double) a / (1 << FRACT_WIDTH);                  // divide by 2^FRACT_WIDTH
     return result;
