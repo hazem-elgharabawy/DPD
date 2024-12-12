@@ -41,8 +41,8 @@ void write_output_file(const char *filename, Actuator_S *act) {
     }
 
     // Write output values to the file
-    fprintf(file, "Output R: %.6f\n", FIxedToDouble(act->out_r));
-    fprintf(file, "Output I: %.6f\n", FIxedToDouble(act->out_i));
+    fprintf(file, "Output R: %.6f\n", FixedToDouble(act->out_r));
+    fprintf(file, "Output I: %.6f\n", FixedToDouble(act->out_i));
     fprintf(file, "\n");  // Separate each output by a newline
 
     fclose(file);
